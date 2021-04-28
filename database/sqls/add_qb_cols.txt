@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `qb_client_id` VARCHAR(255) NOT NULL AFTER `trial_ends_at`, ADD `qb_client_secret` VARCHAR(255) NOT NULL AFTER `qb_client_id`, ADD `qb_access_token` TEXT NOT NULL AFTER `qb_client_secret`, ADD `qb_refresh_token` VARCHAR(255) NOT NULL AFTER `qb_access_token`, ADD `qb_realm_id` VARCHAR(255) NOT NULL AFTER `qb_refresh_token`;

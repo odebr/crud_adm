@@ -1,0 +1,1 @@
+ALTER TABLE `contacts` ADD `qb_customer_id` INT NOT NULL AFTER `updated_at`;

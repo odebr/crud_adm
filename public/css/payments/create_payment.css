@@ -1,0 +1,68 @@
+.m-title,
+span.m-span-imovel-info {
+    line-height: 38px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.m-title.m-detail-title,
+span.m-span-imovel-info {
+    display: none;
+}
+
+.kt-divider {
+    margin-bottom: 5px;
+}
+
+thead:first-child tr {
+    border-bottom: 2px solid #dee2e6 !important;
+}
+
+thead:last-child tr {
+    border-top: 2px solid #dee2e6 !important;
+}
+
+table .select2-selection__rendered {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+table.table tbody th,
+table.table tbody td {
+    line-height: 48px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+table.table tbody th:nth-child(1),
+table.table thead th:nth-child(1) {
+    width: 10% !important;
+}
+
+table.table tbody tr,
+table.table thead th:not(th:nth-child(1)) {
+    width: 10% !important;
+}
+
+table.table tbody input.sel_date,
+table.table tbody input.input_val {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    height: auto !important;
+    margin-top: 11px;
+}
+
+table.table tbody input.sel_file {
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    margin-top: 10px;
+    height: auto;
+}
+
+tr#clone_tr {
+    display: none;
+}
+
+button#btn_insert {
+    margin-right: 10px;
+}

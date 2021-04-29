@@ -1,0 +1,35 @@
+/*Additional Style*/
+#spantd {
+height: 20px;
+padding: 0px;
+} 
+.btn-label-primary {
+    color: #5d78ff!important;
+    background: #eef1ff!important;
+    font-weight: bold;
+    padding: 5px;
+} 
+.btn-label-success {
+    color: #0abb87!important;
+    padding: 5px;
+    background: #e6f8f3;
+    font-weight: bold;   
+}     
+.btn-label-warning {
+    color: #ffb822!important;
+    padding: 5px;
+    background: #fff8e8;
+    font-weight: bold;   
+} 
+.btn-label-brand {
+    color: #fd397a!important;
+    padding: 5px;
+    background: #ffebf1;
+    font-weight: bold;   
+}
+.btn-label-progress {
+    color: #fb9e30!important;
+    padding: 5px;
+    background: #fde6cb;
+    font-weight: bold;   
+}

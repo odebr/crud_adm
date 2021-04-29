@@ -1,14 +1,14 @@
 @extends('layouts.base') @section('title', '| Login') @section('head') @parent
-<link href="assets/css/login.css" rel="stylesheet" type="text/css" /> @endsection @section('body')
+<link href="assets/css/pages/login/login-3.css" rel="stylesheet" type="text/css" /> @endsection @section('body')
 <!-- begin::Body -->
 
 <body class="kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--enabled kt-subheader--fixed kt-subheader--solid kt-aside--enabled kt-aside--fixed kt-page--loading">
     <!-- begin:: Page -->
     <div class="kt-grid kt-grid--ver kt-grid--root">
         <div class="kt-grid kt-grid--hor kt-grid--root  kt-login kt-login--v3 kt-login--signin" id="kt_login">
-            <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-login_back">
+            <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" style="background-image: url(images/blue-geo.png);background-size: cover; background-position: top center;">
 
-                <img class="aligncenter" src="/assets/imgs/title.png" alt="intelipag" />
+                <img style="margin: 0 auto;display: block;position: relative;width: 95%;max-width: 200px;margin-top: 20px;" class="aligncenter" src="/images/title.png" alt="intelipag" />
 
                 <div class="kt-grid__item kt-grid__item--fluid kt-login__wrapper" style="width: 100%;min-width: 300px;max-width: 400px;">
                     <div class="kt-portlet loginPortlet">
@@ -52,6 +52,9 @@
                                     <div class="form-group">
                                         <a href="/register" style="width:100%" class="btn btn-pill btn-brand radius login">SIGN UP</a>
                                     </div>
+                                    <!-- <div class="form-group">
+                                            <center><a href="/password/reset" class="resetPassword">Forgot Password</a></center>
+                                        </div> -->
                                 </div>
                             </div>
                         </form>
@@ -62,7 +65,7 @@
             </div>
         </div>
     </div>
-    <div class="kt-grid__item kt-login_back"></div>
+
     <!-- end:: Page -->
 
     <!-- begin::Global Config(global config for global JS sciprts) -->

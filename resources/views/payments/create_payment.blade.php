@@ -142,4 +142,4 @@
 </div>
 @endsection @section('body_last') @if (session('status')) @endif
 <script src="{{ url('js/payments/create_payment.js') }}" type="text/javascript"></script>
-<link href="{{ url('assets/css/payments/create_payment.css') }}" rel="stylesheet" type="text/css" /> @endsection
+<link href="{{ url('css/payments/create_payment.css') }}" rel="stylesheet" type="text/css" /> @endsection

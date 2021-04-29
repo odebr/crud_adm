@@ -150,4 +150,4 @@
 </div>
 @endsection @section('body_last') @if (session('status')) @endif
 <script src="{{ url('js/payments/list_payments.js') }}" type="text/javascript"></script>
-<link href="{{ url('assets/css/payments/list_payments.css') }}" rel="stylesheet" type="text/css" /> @endsection
+<link href="{{ url('css/payments/list_payments.css') }}" rel="stylesheet" type="text/css" /> @endsection

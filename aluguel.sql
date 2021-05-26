@@ -667,7 +667,8 @@ INSERT INTO `users` (`id`, `username`, `password`, `role`, `system_id`) VALUES
 (23, 'paulo_inq', '$2y$10$hBfyQlX6o/d2c6hL0gUYcFG4rchU0LfJ7oBx8C', 2, 16),
 (24, 'augustomanco', '$2y$10$AtCX6.eKGMCODjtG83D4DPoimgnTV1epT79EK', 2, 17),
 (25, 'rubens', '$2y$10$W.QmQLuuEyZ9emPGhp7kE2eiyhIkevFY6Z5fYe', 1, 6),
-(26, 'enge', '$2y$10$W.cVx8o5AUp2eiyhIkevFY6Z5fYe', 2, 18);
+(26, 'enge', '$2y$10$W.cVx8o5AUp2eiyhIkevFY6Z5fYe', 2, 18),
+(27, 'admin', '$2y$10$ZEgBbjCrPdQRyCQ6OAIbM.lbb3F6nug7BNJfpBscQBybm9Yq6r7Oy',4,0);
 
 --
 -- Indexes for dumped tables

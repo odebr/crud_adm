@@ -7,3 +7,6 @@ Steps:
 2 - clean code, documentation and make it easy to be understood. 
 
 The main goal is make this code in a software engineering way. It has do be documented and easy to understand and capable t be easyly adapted or fixed if necessary. 
+
+
+login: admin  pwd: 1234
